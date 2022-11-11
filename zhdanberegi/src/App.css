@@ -87,7 +87,7 @@ body {
   background: #ba8560ab; /* Серый цвет фона */
   color: #fff; /* Белый цвет текста */
   padding: 1rem 0.5rem; /* Поля вокруг текста */
-  border-radius: 3px; /* Скругляем уголки */
+  border-radius: 8px; /* Скругляем уголки */
   width: 95%;
   border: none;
   cursor: pointer;
