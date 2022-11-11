@@ -1,0 +1,99 @@
+html {
+  font-size: 62.5%;
+}
+.mainphoto img {
+  width: 100%;
+  height: auto;
+}
+body {
+  background-image: url("pic/2022-11-11 14.43.57.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.containtersmall {
+  min-width: 20rem;
+  width: 20%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem;
+}
+
+.namesbox {
+  background-color: white;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.name {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 45px;
+  font-weight: 650;
+  padding-bottom: 2px;
+}
+
+.song {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 95px;
+}
+
+.boxforlinks img {
+  width: 4ch;
+  height: 4ch;
+  border-radius: 100%;
+}
+.boxforlinks {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.boxforlinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+.boxforstores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.boxforstores button {
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #ba8560ab; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  padding: 1rem 0.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 3px; /* Скругляем уголки */
+  width: 95%;
+  border: none;
+}
+
+@media screen and (max-width: 739px) {
+  /* .mainphoto img{
+        border-radius: 100%;
+       width: 25ch;
+       height:25ch;
+       border-color: #f3f5f7;
+       border-style: solid;
+} */
+}
