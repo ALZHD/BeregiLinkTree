@@ -84,8 +84,12 @@ body {
   padding: 1rem 0.5rem; /* Поля вокруг текста */
   text-decoration: none; /* Убираем подчёркивание */
   border-radius: 3px; /* Скругляем уголки */
-  width: 95%;
+  width: 100%;
   border: none;
+}
+
+.boxforstores form {
+  width: 95%;
 }
 
 @media screen and (max-width: 739px) {
