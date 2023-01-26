@@ -98,6 +98,29 @@ body {
   color: #e78138ab;
 }
 
+.remixsong {
+  text-decoration: none;
+  font-family: "Arial, Helvetica", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #c5177767; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  padding: 1rem 0.5rem; /* Поля вокруг текста */
+  border-radius: 8px; /* Скругляем уголки */
+  width: 95%;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.remixsong:hover {
+  background: #d7d0c2ab; /* Серый цвет фона */
+  color: #695f58ab;
+}
+
+
+
 
 @media screen and (max-width: 739px) {
   /* .mainphoto img{

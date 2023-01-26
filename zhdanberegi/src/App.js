@@ -31,25 +31,31 @@ function App() {
         </div>
         <div class="boxforstores">
           <a class="main-link" href="https://music.yandex.ru/album/23967780">
-            Cлушать на "Яндекс.Музыка"
+            Cлушать на Яндекс.Музыка
           </a>
           <a
             class="main-link"
             href="https://open.spotify.com/album/1mFkaY0oPs6nIllqS24dlG"
           >
-            Cлушать на "Spotify"
+            Cлушать на Spotify
           </a>
           <a
             class="main-link"
             href="https://music.apple.com/ru/album/%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%B8/1653070890?i=1653070900"
           >
-            Cлушать на "Apple Music"
+            Cлушать на Apple Music
           </a>
           <a
             class="main-link"
             href="https://vk.com/artist/zhdan_mty2ode1ntk1mq?z=audio_playlist-2000677433_16677433%2Fda4610324266e7bb28"
           >
-            Cлушать на "VK Музыка"
+            Cлушать на VK Музыка
+          </a>
+          <a
+            class="main-link remixsong"
+            href="https://beregi-remix.vercel.app/"
+          >
+            Cлушать Remix
           </a>
         </div>
         <div>
